@@ -12,6 +12,9 @@ import android.widget.TextView;
 
 import com.a520wcf.yllistview.YLListView;
 
+/**
+ *  有问题可以发送到邮箱 yll@520wcf.com
+ */
 public class MainActivity extends AppCompatActivity {
     private YLListView listView;
     @Override
