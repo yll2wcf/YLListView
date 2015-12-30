@@ -3,6 +3,25 @@ YLListView仿IOS弹簧效果的ListView
 
 ![](https://raw.githubusercontent.com/yll2wcf/YLListView/master/gif/1.gif)
 
+使用方法
+   
+	 compile 'com.a520wcf.yllistview:YLListView:1.0.1'
+
+
+
+使用介绍:
+	    
+布局:
+
+	<com.a520wcf.yllistview.YLListView
+        android:divider="@android:color/transparent"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />	
+
+代码:
+
     private YLListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
